@@ -1,0 +1,92 @@
+@media (max-width: 990px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: 70vh;
+    padding: 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-title {
+    font-size: 0.9rem;
+  }
+
+  .feature-card,
+  .login-card,
+  .promo-panel {
+    padding: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .admin-news-card {
+    flex-direction: column;
+  }
+
+  .admin-news-card__actions {
+    flex-direction: row;
+    min-width: auto;
+  }
+}
+@media (max-width: 990px) {
+  .video-frame {
+    height: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-frame {
+    height: 300px;
+  }
+
+  .countdown-panel,
+  .newsletter-panel {
+    padding: 1.5rem;
+  }
+
+  .countdown-box span {
+    font-size: 1.8rem;
+  }
+
+  .edition-price {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .video-frame {
+    height: 220px;
+  }
+}
+
+@media (max-width: 990px) {
+  .admin-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-sidebar {
+    position: static;
+  }
+}

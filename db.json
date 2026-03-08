@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@requiem.com",
+      "password": "123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@requiem.com",
+      "password": "123456",
+      "role": "user",
+      "name": "Jugador"
+    },
+    {
+      "id": "c301",
+      "name": "Pablo",
+      "email": "p@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "Nuevo avance mostrado en conferencia",
+      "text": "Capcom revela nuevos detalles sobre la ambientación y la narrativa.",
+      "date": "2026-03-08"
+    },
+    {
+      "id": "2",
+      "title": "Se confirma un enfoque más terrorífico",
+      "text": "La nueva entrega apuesta por una atmósfera más oscura y opresiva.",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "5440",
+      "title": "REQUIEM",
+      "text": "SALE MAÑANAAAA",
+      "date": "2026-03-08"
+    }
+  ],
+  "characters": [
+    {
+      "id": "1",
+      "name": "Grace Ashcroft",
+      "role": "Investigadora"
+    },
+    {
+      "id": "2",
+      "name": "Leon S. Kennedy",
+      "role": "Agente especial"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

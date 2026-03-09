@@ -1,16 +1,35 @@
-# React + Vite
+# Resident Evil Requiem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con React para promocionar un videojuego ficticio inspirado en la saga Resident Evil.  
+El proyecto incluye zona pública, autenticación con roles, panel de administración, consumo de API REST y diseño responsive.
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Rutas con React Router
+- Login y registro de usuarios
+- Roles de usuario y administrador
+- Protección de rutas privadas
+- CRUD de noticias
+- CRUD de personajes
+- Consumo de API REST con fetch
+- Estado global con Zustand
+- Formularios con React Hook Form
+- Diseño responsive adaptado a distintos tamaños de pantalla
+- Preparado para despliegue en GitHub Pages
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router DOM
+- Bootstrap
+- Zustand
+- React Hook Form
+- JSON Server
+- gh-pages
 
-## Expanding the ESLint configuration
+## Instalación:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/plopezetx/resident-evil-requiem.git
+cd resident-evil-requiem

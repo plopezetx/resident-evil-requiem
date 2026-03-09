@@ -14,7 +14,7 @@ function TrailerSection() {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            src="https://www.youtube.com/embed/POz1-EmLsTY"
             title="Resident Evil Requiem Trailer"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

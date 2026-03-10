@@ -33,3 +33,14 @@ El proyecto incluye zona pública, autenticación con roles, panel de administra
 ```bash
 git clone https://github.com/plopezetx/resident-evil-requiem.git
 cd resident-evil-requiem
+```
+
+## Ejecución:
+Se abren dos terminales y se pone en cada una de ellas:
+```bash
+npm run dev
+```
+```bash
+npm run server
+```
+A disfrutar!
